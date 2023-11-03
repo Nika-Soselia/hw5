@@ -1,0 +1,154 @@
+/*header*/
+.nav-wrapper {
+	width: 1440px;
+	height: 50px;
+	background: #F6F8F9;
+/*	margin: 0 auto;*/
+	padding: 10px 20px;
+	position: fixed;
+	top:0;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 999;
+}
+
+.logo {
+	font-size: 13px;
+	color: #FA6980;
+	margin-right: 80px;
+}
+.nav-a {
+	font-size: 11px;
+	color: #343638;
+	opacity: 50%;
+	margin: 0 11px;
+}
+.nav-a.active {
+	opacity: 100%;
+}
+
+/*display properties*/
+.nav-li, .nav-ul, .logo, .nav-img  {
+	display: inline-block;
+	vertical-align: middle;
+}
+.nav-img {
+	margin-left: 30px;
+}
+
+
+/*section 1*/
+
+.section1-wrapper {
+	width: 1160px;
+/*	height: 410px;*/
+	margin: 75px auto;
+	border: 1px solid blue;
+}
+.section1-h {
+	font-size: 24px;
+	margin-bottom: 40px;
+}
+.s1-rel {
+	display: inline-block;
+	position: relative;
+}
+.s1-abs {
+	position: absolute;
+	left: 40px;
+	top: 28px;
+	color: white;
+}
+.s1-under-box {
+	width: 360px;
+	height: 170px;
+	padding: 60px 40px 40px;
+}
+.s1-under-box-p {
+	font-size: 13px;
+	color: #A6ADB4;
+	margin-bottom: 28px;
+}
+.s1-under-box-p-time-p, .time-img{
+	font-size: 13px;
+	color: #A6ADB4;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.block-wrapper {
+	width: 360px;
+	height: 350px;
+	background: white;
+	display: inline-block;
+	margin-right: 30px;
+}
+.block-wrapper.last {
+	margin-right: 0;
+}
+
+
+/*section 2 */
+.section-2-wrapper {
+	width: 1160px;
+	height: 960px;
+	margin: 0 auto 37px;
+	border: 1px solid pink;
+}
+.section-2-left {
+	width: 760px;
+	height: 900px;
+	margin-right: 25px;
+}
+.section-2-left, .section-2-right {
+	display: inline-block;
+	vertical-align: top;
+}
+.relative {
+	display: block;
+	position: relative;
+	margin-bottom: 30px;
+}
+.absolute {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	color: white;
+}
+.section-2-right {
+	width: 360px;
+	height: 900px;
+}
+.section-2-right-margin {
+	margin-bottom: 100px;
+}
+
+
+/*footer*/
+.footer-wrapper {
+	width: 1440px;
+	height: 200px;
+	margin: 0 auto;
+	background: #A6ADB4;
+	padding:54px 138px 60px 140px;
+}
+
+.footer-nav-wrapper {
+	width: 486px;
+	height: 86px;
+	border: 1px solid white;
+	display: inline-block;
+}
+.neighbors {
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 75px;
+	line-height: 20px;
+}
+.neighbors.last {
+	margin-right: 0;
+}
+.footer-p {
+	display: inline-block;
+}
